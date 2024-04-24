@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+@media only screen and (max-width:480px) {
+    html,body{
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+}
+.img {
+    height: 700px;
+    width: 100%;
+}
+
+.form-width {
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    overflow-x: hidden;
+}
+.errorclass{
+    color: red;
+}
